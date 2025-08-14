@@ -20,7 +20,7 @@ async def home(request: Request):
 async def shorten_url(request: Request, long_url: str = Form(...)):
     short_code = generate_short_code()
     url_store[short_code] = long_url
-    short_url = f"http://127.0.0.1:8000/{short_code}"
+    short_url = f"https://fastapi-url-shortener-1.onrender.com/{short_code}"
     return templates.TemplateResponse("index.html", {
         "request": request,
         "short_url": short_url,
