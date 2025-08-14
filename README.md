@@ -10,8 +10,8 @@ Access the app here: [https://fastapi-url-shortener-3.onrender.com](https://fast
 
 ## 📸 Screenshots
 
-![Form Page](static/screenshots/form.png)
-![Redirect Success](static/screenshots/success.png)
+<img width="684" height="280" alt="image" src="https://github.com/user-attachments/assets/a573343c-3576-4694-b005-e55a01c72b89" />
+
 
 ## 🛠 Features
 
